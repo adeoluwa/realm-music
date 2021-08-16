@@ -1,3 +1,7 @@
+body{
+  background-color: aliceblue;
+}
+
 .album {
   width: 80%;
   margin: auto;
@@ -27,7 +31,7 @@
 }
 .layer:hover {
   background: rgba(96, 184, 103, 0.6);
-  padding-top: 25%;
+  /* padding-top: 25%; */
   color: #fff3f3;
   transition: 0.5s;
   opacity: 1;

@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse align-items-center text-center justify-content-center" id="navbarNav">
                 <ul class="navbar-nav d-flex align-items-end text-center justify-content-end">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">home<span class="sr-only"></span> </a>
+                        <a href="index.html" class="nav-link">home<span class="sr-only"></span> </a>
                     </li>
                     <li class="nav-item">
                         <a href="playlist.html" class="nav-link">playlist<span class="sr-only"></span></a>
@@ -65,30 +65,38 @@
 
             <div class="row" >
                 <div class="album-col col-md-3 col-sm-12" >
-                    <img src="./images/Ruger-Bounce.png"  style="min-height: 325px; max-height: 325px;">
+                    <img src="./images/Ruger-Bounce.png"  style="min-height: 347px; max-height: 347px;" >
                     <div class="layer">
-                        <a href="album-details.html"><h3 class = 'hitz'>Pandemic EP</h3></a>
+                        <a href="#" data-toggle="modal" data-target="#rudger">
+                            <h3 class = 'hitz'>Ruger-Bounce</h3>
+                        </a>
                     </div>
                 </div>
     
                 <div class="album-col col-md-3" >
-                    <img src="./images/The-Cavemen-Roots.png" >
+                    <img src="./images/dollypizzle.jpeg" style="min-height: 347px; max-height: 347px;" >
                     <div class="layer">
-                        <h3 class = 'hitz'>Roots</h3>
+                        <a href="#" data-toggle="modal" data-target="#dollypizzle">
+                            <h3 class = 'hitz'>What you know</h3>
+                        </a>
                     </div>
                 </div>
     
                 <div class="album-col col-md-3" >
-                    <img src="./images/Peruzzi-–-Rum-Boogie-IMG.png">
+                    <img src="./images/Omah-Lay-Understand.jpeg" >
                     <div class="layer">
-                        <h3 class = 'hitz'>Rum & Boogie</h3>
+                        <a href="#" data-toggle="modal" data-target="#understand">
+                            <h3 class = 'hitz'>Omah-Lay-Understand</h3>
+                        </a>
                     </div>
                 </div>
 
                 <div class="album-col col-md-3" >
-                    <img src="./images/qdot-alagbe.jpeg" >
+                    <img src="./images/feeling-ladipoe.jfif" >
                     <div class="layer">
-                        <h3 class = 'hitz'>Alagbe</h3>
+                        <a href="#" data-toggle="modal" data-target="#ladipoe">
+                            <h3 class = 'hitz'>feeling-ladipoe</h3>
+                        </a>
                     </div>
                 </div>
 
@@ -179,6 +187,106 @@
             </div>
         </div>
     </section>
+
+
+    <!-- ========== Modals ========= -->
+
+     
+    <div class="modal fade" id="rudger" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Ruger: Bounce</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+     
+    <div class="modal fade" id="dollypizzle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">dollypizzle:  What you know</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <div class="modal fade" id="understand" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Omah-Lay: Understand</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="modal fade" id="ladipoe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">ladipoe ft Buju: Feelings</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
 
 
 
