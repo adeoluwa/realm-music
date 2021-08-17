@@ -28,6 +28,7 @@ body{
   top: 0;
   left: 0;
   transition: 0.5s;
+  display: inline-block;
 }
 .layer:hover {
   background: rgba(96, 184, 103, 0.6);
@@ -35,6 +36,7 @@ body{
   color: #fff3f3;
   transition: 0.5s;
   opacity: 1;
+  /* display: show; */
 }
 
 .layer h3 {
