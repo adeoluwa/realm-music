@@ -1,0 +1,42 @@
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+    <div class="col-md-9 col-lg-9 py-5 bg-light">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="d-flex align-items-center justify-content-center bg-danger" style="height: 200px;">
+                    <h4 class="text-white">5 Properties</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="d-flex align-items-center justify-content-center bg-success" style="height: 200px;">
+                    <h4 class="text-white">3 Propertie for rent</h4>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="d-flex align-items-center justify-content-center bg-warning" style="height: 200px;">
+                    <h4 class="text-white">2 Propertie for sale</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="d-flex align-items-center justify-content-center bg-primary" style="height: 200px;">
+                    <h4 class="text-white">2 Duplex</h4>
+                </div>
+            </div>
+        </div>
+    </div>
